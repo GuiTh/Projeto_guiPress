@@ -9,7 +9,7 @@ const articlesController = require('./articles/articlesController')
 const usersController = require('./user/userController')
 
 const Article = require('./articles/articles')
-const Category = require('./categories/category')
+const Category = require('./categories/categorys')
 
 //View engine
 app.set('view engine', 'ejs')

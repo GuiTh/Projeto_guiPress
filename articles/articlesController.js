@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Category = require("../categories/Category");
+const Category = require("../categories/categorys");
 const Article = require("./articles");
 const slugify = require("slugify");
 const adminAuth = require("../middlewares/adminAuth");
